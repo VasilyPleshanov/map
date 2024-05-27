@@ -259,7 +259,7 @@ ymaps.ready().then(function () {
     // Метки
     // Создаём макет содержимого.
     MyIconContentLayout = ymaps.templateLayoutFactory.createClass(
-        '<div style="color: #000000; font-weight: bold;">$[properties.iconContent]</div>'
+        '<div style="color: #000000; font-weight: bold; font-size: 8px">$[properties.iconContent]</div>'
     )
     // Создадим коллекцию геообъектов.
     var collection = new ymaps.GeoObjectCollection(null, {
@@ -287,7 +287,7 @@ ymaps.ready().then(function () {
             // её "ножки" (точки привязки).
             iconImageOffset: [-24, -24],
             // Смещение слоя с содержимым относительно слоя с картинкой.
-            iconContentOffset: [19.5, 12],
+            iconContentOffset: [19, 12],
             // Макет содержимого.
             iconContentLayout: MyIconContentLayout
         }))
@@ -307,7 +307,7 @@ ymaps.ready().then(function () {
             // её "ножки" (точки привязки).
             iconImageOffset: [-24, -24],
             // Смещение слоя с содержимым относительно слоя с картинкой.
-            iconContentOffset: [19.5, 12],
+            iconContentOffset: [19, 12],
             // Макет содержимого.
             iconContentLayout: MyIconContentLayout
         }))
@@ -327,7 +327,7 @@ ymaps.ready().then(function () {
             // её "ножки" (точки привязки).
             iconImageOffset: [-24, -24],
             // Смещение слоя с содержимым относительно слоя с картинкой.
-            iconContentOffset: [19.5, 12],
+            iconContentOffset: [19, 12],
             // Макет содержимого.
             iconContentLayout: MyIconContentLayout
         }))
@@ -347,7 +347,7 @@ ymaps.ready().then(function () {
             // её "ножки" (точки привязки).
             iconImageOffset: [-24, -24],
             // Смещение слоя с содержимым относительно слоя с картинкой.
-            iconContentOffset: [19.5, 12],
+            iconContentOffset: [19, 12],
             // Макет содержимого.
             iconContentLayout: MyIconContentLayout
         }))
@@ -367,7 +367,7 @@ ymaps.ready().then(function () {
             // её "ножки" (точки привязки).
             iconImageOffset: [-24, -24],
             // Смещение слоя с содержимым относительно слоя с картинкой.
-            iconContentOffset: [19.5, 12],
+            iconContentOffset: [19, 12],
             // Макет содержимого.
             iconContentLayout: MyIconContentLayout
         }))
@@ -387,7 +387,7 @@ ymaps.ready().then(function () {
             // её "ножки" (точки привязки).
             iconImageOffset: [-24, -24],
             // Смещение слоя с содержимым относительно слоя с картинкой.
-            iconContentOffset: [19.5, 12],
+            iconContentOffset: [19, 12],
             // Макет содержимого.
             iconContentLayout: MyIconContentLayout
         }))
@@ -407,7 +407,7 @@ ymaps.ready().then(function () {
             // её "ножки" (точки привязки).
             iconImageOffset: [-24, -24],
             // Смещение слоя с содержимым относительно слоя с картинкой.
-            iconContentOffset: [19.5, 12],
+            iconContentOffset: [19, 12],
             // Макет содержимого.
             iconContentLayout: MyIconContentLayout
         }))
@@ -427,7 +427,7 @@ ymaps.ready().then(function () {
             // её "ножки" (точки привязки).
             iconImageOffset: [-24, -24],
             // Смещение слоя с содержимым относительно слоя с картинкой.
-            iconContentOffset: [19.5, 12],
+            iconContentOffset: [19, 12],
             // Макет содержимого.
             iconContentLayout: MyIconContentLayout
         }))
@@ -447,7 +447,7 @@ ymaps.ready().then(function () {
             // её "ножки" (точки привязки).
             iconImageOffset: [-24, -24],
             // Смещение слоя с содержимым относительно слоя с картинкой.
-            iconContentOffset: [19.5, 12],
+            iconContentOffset: [19, 12],
             // Макет содержимого.
             iconContentLayout: MyIconContentLayout
         }))
@@ -467,7 +467,7 @@ ymaps.ready().then(function () {
             // её "ножки" (точки привязки).
             iconImageOffset: [-24, -24],
             // Смещение слоя с содержимым относительно слоя с картинкой.
-            iconContentOffset: [19.5, 12],
+            iconContentOffset: [19, 12],
             // Макет содержимого.
             iconContentLayout: MyIconContentLayout
         }))
@@ -487,7 +487,7 @@ ymaps.ready().then(function () {
             // её "ножки" (точки привязки).
             iconImageOffset: [-24, -24],
             // Смещение слоя с содержимым относительно слоя с картинкой.
-            iconContentOffset: [19.5, 12],
+            iconContentOffset: [19, 12],
             // Макет содержимого.
             iconContentLayout: MyIconContentLayout
         }))
@@ -507,7 +507,7 @@ ymaps.ready().then(function () {
             // её "ножки" (точки привязки).
             iconImageOffset: [-24, -24],
             // Смещение слоя с содержимым относительно слоя с картинкой.
-            iconContentOffset: [19.5, 12],
+            iconContentOffset: [19, 12],
             // Макет содержимого.
             iconContentLayout: MyIconContentLayout
         }))
@@ -527,7 +527,7 @@ ymaps.ready().then(function () {
             // её "ножки" (точки привязки).
             iconImageOffset: [-24, -24],
             // Смещение слоя с содержимым относительно слоя с картинкой.
-            iconContentOffset: [19.5, 12],
+            iconContentOffset: [19, 12],
             // Макет содержимого.
             iconContentLayout: MyIconContentLayout
         }))
@@ -547,7 +547,7 @@ ymaps.ready().then(function () {
             // её "ножки" (точки привязки).
             iconImageOffset: [-24, -24],
             // Смещение слоя с содержимым относительно слоя с картинкой.
-            iconContentOffset: [19.5, 12],
+            iconContentOffset: [19, 12],
             // Макет содержимого.
             iconContentLayout: MyIconContentLayout
         }))
@@ -567,7 +567,7 @@ ymaps.ready().then(function () {
             // её "ножки" (точки привязки).
             iconImageOffset: [-24, -24],
             // Смещение слоя с содержимым относительно слоя с картинкой.
-            iconContentOffset: [19.5, 12],
+            iconContentOffset: [19, 12],
             // Макет содержимого.
             iconContentLayout: MyIconContentLayout
         }))
@@ -587,7 +587,7 @@ ymaps.ready().then(function () {
             // её "ножки" (точки привязки).
             iconImageOffset: [-24, -24],
             // Смещение слоя с содержимым относительно слоя с картинкой.
-            iconContentOffset: [19.5, 12],
+            iconContentOffset: [19, 12],
             // Макет содержимого.
             iconContentLayout: MyIconContentLayout
         }))
@@ -607,7 +607,7 @@ ymaps.ready().then(function () {
             // её "ножки" (точки привязки).
             iconImageOffset: [-24, -24],
             // Смещение слоя с содержимым относительно слоя с картинкой.
-            iconContentOffset: [19.5, 12],
+            iconContentOffset: [19, 12],
             // Макет содержимого.
             iconContentLayout: MyIconContentLayout
         }))
@@ -627,7 +627,7 @@ ymaps.ready().then(function () {
             // её "ножки" (точки привязки).
             iconImageOffset: [-24, -24],
             // Смещение слоя с содержимым относительно слоя с картинкой.
-            iconContentOffset: [19.5, 12],
+            iconContentOffset: [19, 12],
             // Макет содержимого.
             iconContentLayout: MyIconContentLayout
         }))
@@ -647,7 +647,7 @@ ymaps.ready().then(function () {
             // её "ножки" (точки привязки).
             iconImageOffset: [-24, -24],
             // Смещение слоя с содержимым относительно слоя с картинкой.
-            iconContentOffset: [19.5, 12],
+            iconContentOffset: [19, 12],
             // Макет содержимого.
             iconContentLayout: MyIconContentLayout
         }))
@@ -667,7 +667,7 @@ ymaps.ready().then(function () {
             // её "ножки" (точки привязки).
             iconImageOffset: [-24, -24],
             // Смещение слоя с содержимым относительно слоя с картинкой.
-            iconContentOffset: [19.5, 12],
+            iconContentOffset: [19, 12],
             // Макет содержимого.
             iconContentLayout: MyIconContentLayout
         }))
@@ -687,7 +687,7 @@ ymaps.ready().then(function () {
             // её "ножки" (точки привязки).
             iconImageOffset: [-24, -24],
             // Смещение слоя с содержимым относительно слоя с картинкой.
-            iconContentOffset: [19.5, 12],
+            iconContentOffset: [19, 12],
             // Макет содержимого.
             iconContentLayout: MyIconContentLayout
         }))
@@ -707,7 +707,7 @@ ymaps.ready().then(function () {
             // её "ножки" (точки привязки).
             iconImageOffset: [-24, -24],
             // Смещение слоя с содержимым относительно слоя с картинкой.
-            iconContentOffset: [19.5, 12],
+            iconContentOffset: [19, 12],
             // Макет содержимого.
             iconContentLayout: MyIconContentLayout
         }))
@@ -727,7 +727,7 @@ ymaps.ready().then(function () {
             // её "ножки" (точки привязки).
             iconImageOffset: [-24, -24],
             // Смещение слоя с содержимым относительно слоя с картинкой.
-            iconContentOffset: [19.5, 12],
+            iconContentOffset: [19, 12],
             // Макет содержимого.
             iconContentLayout: MyIconContentLayout
         }))
@@ -747,7 +747,7 @@ ymaps.ready().then(function () {
             // её "ножки" (точки привязки).
             iconImageOffset: [-24, -24],
             // Смещение слоя с содержимым относительно слоя с картинкой.
-            iconContentOffset: [19.5, 12],
+            iconContentOffset: [19, 12],
             // Макет содержимого.
             iconContentLayout: MyIconContentLayout
         }))
@@ -767,7 +767,7 @@ ymaps.ready().then(function () {
             // её "ножки" (точки привязки).
             iconImageOffset: [-24, -24],
             // Смещение слоя с содержимым относительно слоя с картинкой.
-            iconContentOffset: [19.5, 12],
+            iconContentOffset: [19, 12],
             // Макет содержимого.
             iconContentLayout: MyIconContentLayout
         }))
@@ -787,7 +787,7 @@ ymaps.ready().then(function () {
             // её "ножки" (точки привязки).
             iconImageOffset: [-24, -24],
             // Смещение слоя с содержимым относительно слоя с картинкой.
-            iconContentOffset: [19.5, 12],
+            iconContentOffset: [19, 12],
             // Макет содержимого.
             iconContentLayout: MyIconContentLayout
         }))
@@ -807,7 +807,7 @@ ymaps.ready().then(function () {
             // её "ножки" (точки привязки).
             iconImageOffset: [-24, -24],
             // Смещение слоя с содержимым относительно слоя с картинкой.
-            iconContentOffset: [19.5, 12],
+            iconContentOffset: [19, 12],
             // Макет содержимого.
             iconContentLayout: MyIconContentLayout
         }))
@@ -827,7 +827,7 @@ ymaps.ready().then(function () {
             // её "ножки" (точки привязки).
             iconImageOffset: [-24, -24],
             // Смещение слоя с содержимым относительно слоя с картинкой.
-            iconContentOffset: [19.5, 12],
+            iconContentOffset: [19, 12],
             // Макет содержимого.
             iconContentLayout: MyIconContentLayout
         }))
@@ -847,7 +847,7 @@ ymaps.ready().then(function () {
             // её "ножки" (точки привязки).
             iconImageOffset: [-24, -24],
             // Смещение слоя с содержимым относительно слоя с картинкой.
-            iconContentOffset: [19.5, 12],
+            iconContentOffset: [19, 12],
             // Макет содержимого.
             iconContentLayout: MyIconContentLayout
         }))
@@ -867,7 +867,7 @@ ymaps.ready().then(function () {
             // её "ножки" (точки привязки).
             iconImageOffset: [-24, -24],
             // Смещение слоя с содержимым относительно слоя с картинкой.
-            iconContentOffset: [19.5, 12],
+            iconContentOffset: [19, 12],
             // Макет содержимого.
             iconContentLayout: MyIconContentLayout
         }))
@@ -887,7 +887,7 @@ ymaps.ready().then(function () {
             // её "ножки" (точки привязки).
             iconImageOffset: [-24, -24],
             // Смещение слоя с содержимым относительно слоя с картинкой.
-            iconContentOffset: [19.5, 12],
+            iconContentOffset: [19, 12],
             // Макет содержимого.
             iconContentLayout: MyIconContentLayout
         }))
@@ -907,7 +907,7 @@ ymaps.ready().then(function () {
             // её "ножки" (точки привязки).
             iconImageOffset: [-24, -24],
             // Смещение слоя с содержимым относительно слоя с картинкой.
-            iconContentOffset: [19.5, 12],
+            iconContentOffset: [19, 12],
             // Макет содержимого.
             iconContentLayout: MyIconContentLayout
         }))
@@ -927,7 +927,7 @@ ymaps.ready().then(function () {
             // её "ножки" (точки привязки).
             iconImageOffset: [-24, -24],
             // Смещение слоя с содержимым относительно слоя с картинкой.
-            iconContentOffset: [19.5, 12],
+            iconContentOffset: [19, 12],
             // Макет содержимого.
             iconContentLayout: MyIconContentLayout
         }))
@@ -947,7 +947,7 @@ ymaps.ready().then(function () {
             // её "ножки" (точки привязки).
             iconImageOffset: [-24, -24],
             // Смещение слоя с содержимым относительно слоя с картинкой.
-            iconContentOffset: [19.5, 12],
+            iconContentOffset: [19, 12],
             // Макет содержимого.
             iconContentLayout: MyIconContentLayout
         }))
@@ -967,7 +967,7 @@ ymaps.ready().then(function () {
             // её "ножки" (точки привязки).
             iconImageOffset: [-24, -24],
             // Смещение слоя с содержимым относительно слоя с картинкой.
-            iconContentOffset: [19.5, 12],
+            iconContentOffset: [19, 12],
             // Макет содержимого.
             iconContentLayout: MyIconContentLayout
         }))
@@ -986,7 +986,9 @@ ymaps.ready().then(function () {
         modal.innerHTML = `
             <div class="modal__content">
                 <div class="modal__row">
-                    <button class="modal__btn-close">x</button>
+                    <div class="modal__collum"></div>
+                    <div class="modal__number">${target.properties._data.id}</div>
+                    <button class="modal__btn-close">X</button>
                 </div>
                 <div class="modal__grade grade">
                     <div class="grade__foto">
