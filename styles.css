@@ -648,9 +648,6 @@ a:visited {
     padding: 10px 30px;
     border-radius: 20px;
     background-color: #fff;
-    /* -webkit-box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.5);
-    -moz-box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.5);
-    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.5); */
 }
 
 .modal-message__text {}
@@ -695,6 +692,10 @@ a:visited {
 .home__btn {
     color: #000;
     cursor: pointer;
+}
+
+.home__btn:visited {
+    color: #000;
 }
 
 .statistics__list {}
@@ -777,12 +778,6 @@ a:visited {
     justify-content: center;
 }
 
-.rating h2 {
-    /* margin-bottom: 10px; */
-}
-
-.rating__list {}
-
 .rating__item {
     display: flex;
     margin-bottom: 5px;
@@ -811,10 +806,6 @@ a:visited {
     background-color: #E6F0F1;
 }
 
-.about__btn-block {}
-
-.about__btn-close {}
-
 .about__title {
     text-align: center;
     margin-bottom: 20px;
@@ -825,4 +816,8 @@ a:visited {
 
 .about__text p {
     margin-bottom: 20px;
+}
+
+.about__btn-close:visited {
+    color: #000;
 }
