@@ -826,14 +826,3 @@ a:visited {
 .about__text p {
     margin-bottom: 20px;
 }
-
-.about__images {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 100vw;
-}
-
-.about__images img {
-    width: 100%;
-}
