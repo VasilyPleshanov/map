@@ -585,9 +585,21 @@ a:visited {
     margin-right: 10px;
 }
 
+@media (max-width: 479.98px) {
+    .rating__text {
+        width: auto;
+    }
+}
+
 .rating__grade {
     width: 50px;
     text-align: center;
+}
+
+@media (max-width: 479.98px) {
+    .rating__grade {
+        width: auto;
+    }
 }
 
 .statistics__foto {
@@ -595,6 +607,12 @@ a:visited {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+@media (max-width: 479.98px) {
+    .statistics__foto {
+        flex: 0 0 60px;
+    }
 }
 
 .statistics__foto p {
