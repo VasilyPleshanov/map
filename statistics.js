@@ -153,7 +153,7 @@ placesArr.map((place) => {
     let rating
 
     if (window.localStorage.getItem(`${place.id}`) == null) {
-        rating = 'нет оценки'
+        rating = 'Вы еще не оценили'
     } else {
         rating = window.localStorage.getItem(`${place.id}`)
     }
