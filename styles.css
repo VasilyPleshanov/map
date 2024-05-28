@@ -650,7 +650,15 @@ a:visited {
     background-color: #fff;
 }
 
-.modal-message__text {}
+@media (max-width: 479.98px) {
+    .modal-message__content {
+        width: 250px;
+    }
+}
+
+.modal-message__text {
+    text-align: center;
+}
 
 .modal-message__btn {
     color: #fff;
